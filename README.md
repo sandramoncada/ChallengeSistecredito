@@ -21,7 +21,7 @@ git add .
 NOTA: El punto es si quiero que se adicionen todos los archivos sin distención. Sin embargo, si requiero subir un archivo especifico lo especifico de la siguiente manera: git add Readme
 
 ## Para dejar un mensaje que indique el cambio que se hizo
-git commit -m
+git commit -m "xxx"
 
 ## cuando tengo un cambio y lo voy a guardar
-
+git push origin main
