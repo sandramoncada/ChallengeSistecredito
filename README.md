@@ -50,24 +50,6 @@ Esto permite que el sistema sea:
 - fácil de escalar
 - fácil de extender con nuevos análisis de seguridad
 
-2. Repositorio con el código
-
-La solución se entrega en un repositorio Git público que contiene el código fuente completo del challenge, organizado por capas siguiendo principios de arquitectura limpia.
-
-El repositorio incluye:
-
-1. La capa de domain, donde está la lógica central del negocio
-
-2. La capa de application, donde están los casos de uso y servicios de aplicación
-
-3. La capa de infrastructure, donde se expone la API REST
-
-4. El archivo principal de arranque de la aplicación
-
-5. l archivo de dependencias
-
-la documentación en el README.md
-
 ---
 
 # 2. Problema que resuelve
@@ -220,6 +202,24 @@ ChallengeSistecredito
 ├── requirements.txt
 └── README.md
 ```
+# Repositorio con el código
+
+La solución se entrega en un repositorio Git público que contiene el código fuente completo del challenge, organizado por capas siguiendo principios de arquitectura limpia.
+
+El repositorio incluye:
+
+1. La capa de domain, donde está la lógica central del negocio
+
+2. La capa de application, donde están los casos de uso y servicios de aplicación
+
+3. La capa de infrastructure, donde se expone la API REST
+
+4. El archivo principal de arranque de la aplicación
+
+5. El archivo de dependencias
+
+6. la documentación en el README.md
+
 
 ---
 
