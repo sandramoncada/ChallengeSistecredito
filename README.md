@@ -50,6 +50,24 @@ Esto permite que el sistema sea:
 - fácil de escalar
 - fácil de extender con nuevos análisis de seguridad
 
+2. Repositorio con el código
+
+La solución se entrega en un repositorio Git público que contiene el código fuente completo del challenge, organizado por capas siguiendo principios de arquitectura limpia.
+
+El repositorio incluye:
+
+1. La capa de domain, donde está la lógica central del negocio
+
+2. La capa de application, donde están los casos de uso y servicios de aplicación
+
+3. La capa de infrastructure, donde se expone la API REST
+
+4. El archivo principal de arranque de la aplicación
+
+5. l archivo de dependencias
+
+la documentación en el README.md
+
 ---
 
 # 2. Problema que resuelve
@@ -252,6 +270,18 @@ La API estará disponible en:
 
 ```
 http://127.0.0.1:8000
+
+Se debe adicionar el vector en el POST: Ejm: {
+  "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N"
+}
+Se debe ejecutar la API con los siguientes comandos en Visual (Run/Terminal/New Terminal)
+
+Pasos para correr en python:
+py -m venv venv  - Crea el entorno
+en una command prompt - venv\Scripts\Activate.bat
+pip install -r requirements.txt - Instalar las librerias
+py -m uvicorn main:app --reload - ejecutar
+
 ```
 
 Documentación interactiva:
